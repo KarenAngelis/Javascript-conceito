@@ -6,7 +6,59 @@
     <title>Document</title>
 </head>
 <body>
-    <script src="./script.js"></script>
+    <script>
+        // Variáveis e tipos de dados
+        // decladação or declaration
+        var nome
+
+        // assignment or atribuilção de valores
+
+        var name = "Karen"
+
+        // que tipo de dado foi colocado na variável?
+
+        console.log(typeof name); // a resposta será string
+
+        let age = 20
+        let isHuman = true
+
+        // posso declarar com agrupamento de dados
+
+        let ages, isHumann
+        ages = 18
+        isHumann = true
+
+        //multiplos argumentos na função
+        console.log(name, ages, isHumann)
+
+        //escrita de texto + variáveis
+        console.log('o '+ name + ' tem' + ages + ' anos.')
+
+        // interpolando valores com template  literals or tamplete string
+        console.log(`o ${name} tem ${ages} anos.`)
+
+        // objeto
+        const person = {
+            name: 'Karen',
+            age: 30,
+            weight: 58,
+            isAdmin: true,
+        }
+        // no cosole abaixo estou pegando o valor todo de person, se eu quiser só um valor "name" no console preciso colocar como person.name
+        console.log(person)
+        console.log(`o ${person.name} tem ${person.age} anos.`)
+
+        //ARRAYS
+        const animals = [
+            'Lion',
+            'Monkey',
+            'Cat'
+        ]
+
+        //acessar valores
+        console.log(animals[0]) //posicao 0 é lion
+
+    </script>
     
 </body>
 </html>
